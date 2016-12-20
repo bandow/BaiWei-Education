@@ -1,0 +1,74 @@
+@charset "utf-8";
+/*  -----------------------------
+ *  作者：Dabin
+ *  联系：sycbbb@sina.com
+---------------------------------- */
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    outline: none;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+html { height: 100%; }
+body { font-size: 62.5%; line-height: 1; font-family:\5FAE\8F6F\96C5\9ED1, Arial, Tahoma, sans-serif; }
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section { display: block; }
+ol, ul { list-style: none; }
+blockquote, q { quotes: none; }
+blockquote:before, blockquote:after, q:before, q:after { content: ''; content: none; }
+strong { font-weight: bold; }
+table { border-collapse: collapse; border-spacing: 0; }
+/*img { border: 0; max-width: 100%; }*/
+p { font-size: 1.2rem; line-height: 1.0em; color: #333; }
+
+/*清除浮动*/
+.clearfix{zoom:1}
+.clearfix:before,.clearfix:after{content:".";display:block;height:0;line-height:0;font-size:0;clear:both;visibility:hidden}
+
+/*my css*/
+.w1170{margin:0 auto;width:1170px;height:auto;}
+
+/*header css*/
+body>header{width:100%; height:auto;border-bottom:solid 2px #eee;}
+body>header .c{position: relative;}
+body>header .c h1{position:absolute;top:10px; left:0;z-index:999;}
+body>header .c h1 img{height:35px;}
+.header_top{width:100%;height:25px;margin-top:10px;}
+.header_top .right{float:right;}
+.header_top span{float:left;display:block;line-height:25px;}
+.header_top a{margin-left:10px;}
+.header_bottom{margin-top:10px;width:100%;height:30px; clear: both;}
+.header_bottom nav{float:right;}
+nav ul li{float:left; width:120px;position:relative;}
+nav ul li a{font:16px/30px \5FAE\8F6F\96C5\9ED1;display: block; text-align:center;text-decoration:none;color:#333;}
+nav ul li a b{margin:14px 0 0 10px;border-top-color:#0068b6;border-bottom-color:#0068b6;}
+nav ul .active,.header_bottom nav ul li:hover{border-bottom:2px solid #0068b6; margin-bottom:-2px;}
+nav ul .active a,.header_bottom nav ul li a:hover{color:#0068b6;}
+ .caret {display:inline-block; width:0;height:0;vertical-align:top;border-top:4px solid #0068b6;border-right:4px solid transparent;border-left:4px solid transparent;content: "";}
+.header_bottom nav ul li dl{position:absolute;left:0;top:32px;z-index:998;display:none;width:120px;background-color:#fafafa;box-shadow:1px 2px 1px #ccc;}
+.header_bottom nav ul li dl dd{ border:1px solid #ccc; border-top:none;width:120px;}
+.header_bottom nav ul li dl dd a{color:#666; font:12px/30px \5FAE\8F6F\96C5\9ED1;display: block;overflow:hidden;white-space:nowrap;text-overflow:ellipsis;}
+.header_bottom nav ul li dl dd a:hover{color:#fff; background-color:#0068b6;}
+
+/*footer css*/
+body>footer{width:100%; height:auto; background-color:#3e4753;padding:30px 0; }
+.footer-text p{font:12px/1.5em \5FAE\8F6F\96C5\9ED1;color:#fff;}
+
+/*top css*/
+.scroll-top{position:fixed;top:40%;right:10px;z-index:997;width:120px;height:auto;overflow:hidden;border:1px solid #0268b5; border-radius:5px;background-color:white;}
+.scroll-top h3{text-align:center;font-size:14px;font-weight:bold;line-height:30px;background-color:#0268b5;color:#fff;}
+.scroll-top ul li{line-height:30px;border-top:1px solid #ccc;}
+.scroll-top ul li a{display:block;background-color:#f7f7f7;color:#333;text-decoration:none;}
+.scroll-top ul li a i{ margin:0 5px; color:#999;}
+.scroll-top ul li a:hover{background-color:#0268b5;color:white;}
+.scroll-top ul li a:hover i{color:white;}
+.scroll-top ul li img{padding:10px 10px 0 10px;width:120px;overflow:hidden;}
+.scroll-top ul li .up{ text-align: center;}
+
+
+
